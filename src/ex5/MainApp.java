@@ -37,7 +37,7 @@ public class MainApp {
         System.out.println("Random number = " + randNumber);
         for(int number: list){
             if(number == randNumber){
-                System.out.println("Numarul " + randNumber + " apartine sirului lui Fobonacci");
+                System.out.println("Numarul [" + randNumber + "] apartine sirului lui Fobonacci");
             }
         }
     }

@@ -22,8 +22,8 @@ public class MainApp {
 
         int randNumber1 = random.nextInt(1,30);
         int randNumber2 = random.nextInt(1,30);
-        System.out.println("First random number = " + randNumber1);
-        System.out.println("Second random number = " + randNumber2);
+        System.out.println("First random number = [" + randNumber1 + "]");
+        System.out.println("Second random number = [" + randNumber2 + "]");
 
         int i, j, save = 0;
         ArrayList<Integer> number1 = new ArrayList<>();
