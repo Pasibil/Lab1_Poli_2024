@@ -5,6 +5,18 @@ import java.util.Objects;
 import java.util.Random;
 
 public class MainApp {
+
+    public static int calculateGCD(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+            //System.out.println("A = " + a);
+            //System.out.println("B = " + b);
+        }
+        return a;
+    }
+
     public static void main(String[] args) {
         Random random = new Random();
 
@@ -41,5 +53,6 @@ public class MainApp {
         }
 
         System.out.println(save);
+        System.out.println(calculateGCD(randNumber1,randNumber2));
     }
 }
